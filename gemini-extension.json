@@ -1,0 +1,20 @@
+{
+  "name": "neosantara-docs-mcp",
+  "version": "1.0.0",
+  "mcpServers": {
+    "neosantara-docs-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mcpdoc",
+        "mcpdoc",
+        "--urls",
+        "NeosantaraAPIDocs:https://docs.neosantara.xyz/llms.txt",
+        "--transport",
+        "stdio"
+      ]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
+
